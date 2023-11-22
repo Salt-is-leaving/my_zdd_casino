@@ -12,6 +12,6 @@ jobs:
       with: 
         python-version: "3.10"
     - name: Install dependencies 
-      run: pip -m install pytest
+      run: pip install pytest
     - name: Run unit tests
       run: pytest
